@@ -39,5 +39,6 @@ bun install
 - Query/Routing は `src/app/providers.tsx` で一元管理
 - `tauri.conf.json` の `bundle.targets` は DMG のみ（Apple Silicon 想定）
 - シークレットは `.env` ではなく macOS Keychain or Tauri Store で扱う想定
+- Git hooks は Lefthook で管理し、`bunx lefthook install` でセットアップ。pre-commit で `bunx ultracite fix` が走り、ステージ済みファイルをフォーマットします。
 
 より詳細なルールは `docs/coding-guidelines.md` と `AGENTS.md` を参照してください。

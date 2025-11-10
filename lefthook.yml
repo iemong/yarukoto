@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    ultracite:
+      glob: "*.{ts,tsx,js,jsx,json,jsonc,md,mdx,css,scss,less,astro,vue}"
+      run: bunx ultracite fix
+      stage_fixed: true
