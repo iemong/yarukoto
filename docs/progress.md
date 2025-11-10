@@ -4,7 +4,7 @@ Yarukoto プロジェクトの進捗を管理するためのメモ。チェッ�
 
 ## 0. 全体フェーズ
 
-- [ ] フェーズ 1: 基盤セットアップ
+- [x] フェーズ 1: 基盤セットアップ
 - [ ] フェーズ 2: 認証フロー実装
 - [ ] フェーズ 3: タスクリスト・タスク一覧実装
 - [ ] フェーズ 4: タスク操作（追加 / 完了 / 編集）
@@ -27,14 +27,14 @@ Yarukoto プロジェクトの進捗を管理するためのメモ。チェッ�
 
 ## 2. フェーズ 2: 認証フロー
 
-- [ ] Google Cloud Console でプロジェクト作成
-- [ ] Google Tasks API 有効化
-- [ ] OAuth クライアント（Desktop）発行
-- [ ] リダイレクト URI 設定（`http://127.0.0.1:<port>/callback`）
-- [ ] Rust 側に `start_oauth` コマンド作成
-- [ ] ローカル HTTP サーバで `code` を受け取る処理実装
-- [ ] トークンエンドポイント呼び出し（`oauth2` クレート）
-- [ ] トークン保存実装（Tauri Store 等）
+- [x] Google Cloud Console でプロジェクト作成
+- [x] Google Tasks API 有効化
+- [x] OAuth クライアント（Desktop）発行
+- [x] リダイレクト URI 設定（`http://127.0.0.1:<port>/callback`）
+- [x] Rust 側に `start_oauth` コマンド作成
+- [x] ローカル HTTP サーバで `code` を受け取る処理実装
+- [x] トークンエンドポイント呼び出し（`oauth2` クレート）
+- [x] トークン保存実装（Tauri Store 等）
 - [ ] アプリ起動時にトークンを読み込んで自動ログイン
 
 ---

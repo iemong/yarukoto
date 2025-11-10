@@ -41,4 +41,10 @@ bun install
 - シークレットは `.env` ではなく macOS Keychain or Tauri Store で扱う想定
 - Git hooks は Lefthook で管理し、`bunx lefthook install` でセットアップ。pre-commit で `bunx ultracite fix` が走り、ステージ済みファイルをフォーマットします。
 
+## 5. OAuth 用環境変数
+
+- `.env.local` に `CLIENT_ID` / `CLIENT_SECRET`（ともに大文字）を設定し、Tauri 側で `std::env::var` から参照します。
+- 値は Google Cloud Console で作成した Desktop OAuth クライアントのものを使用し、Git にはコミットしないでください。
+- リダイレクトは `http://127.0.0.1:<port>/callback`（コマンド実行時にポート決定）なので、Console 側で必要なポートを許可しておきます。
+
 より詳細なルールは `docs/coding-guidelines.md` と `AGENTS.md` を参照してください。
