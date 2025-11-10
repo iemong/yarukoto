@@ -15,13 +15,13 @@ Yarukoto プロジェクトの進捗を管理するためのメモ。チェッ�
 
 ## 1. フェーズ 1: 基盤セットアップ
 
-- [ ] Tauri プロジェクト作成（bun ベース）
-- [ ] React + TypeScript テンプレ確認
-- [ ] Tailwind 導入
-- [ ] shadcn/ui 導入 & 初期コンポーネント import
-- [ ] TanStack Router セットアップ
-- [ ] TanStack Query セットアップ
-- [ ] ultra-site 導入 & Lint スクリプト追加
+- [x] Tauri プロジェクト作成（bun ベース）
+- [x] React + TypeScript テンプレ確認
+- [x] Tailwind 導入
+- [x] shadcn/ui 導入 & 初期コンポーネント import
+- [x] TanStack Router セットアップ
+- [x] TanStack Query セットアップ
+- [x] ultra-site 導入 & Lint スクリプト追加
 
 ---
 
